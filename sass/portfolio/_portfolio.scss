@@ -12,11 +12,8 @@
 }
 
 .filter__button {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
+  @include font(500, 16px, 26px, 0.03em);
   text-align: center;
-  letter-spacing: 0.03em;
 
   background: var(--portfolio-color-button);
   border-radius: 4px;
@@ -70,10 +67,7 @@
     overflow: hidden;
   }
   &__overlay {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.6;
-    letter-spacing: 0.03em;
+    @include font(400, 18px, 28px, 0.03em);
     color: #ffffff;
 
     position: absolute;
@@ -103,16 +97,11 @@
   background-color: var(--primary-background-color);
   border: 1px solid #eeeeee;
   &__title {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
+    @include font(700, 18px, 36px, 0.06em);
     text-align: left;
   }
   &__text {
-    font-size: 16px;
-    line-height: 1.9;
-    letter-spacing: 0.03em;
+    @include font(400, 16px, 30px, 0.03em);
 
     color: var(--text-color);
     text-align: left;
