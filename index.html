@@ -27,27 +27,27 @@
     <header class="header">
       <div class="container header__container">
         <nav class="navigation">
-          <a href="./index.html" lang="en" class="logo logo__header link"
-            >Web<span class="logo__color__dark">Studio</span>
+          <a href="./index.html" lang="en" class="logo logo__header"
+            >Web<span class="logo__dark">Studio</span>
           </a>
 
           <ul class="menu">
             <li class="menu__item">
-              <a href="./index.html" class="menu__link menu__link_current link"
+              <a href="./index.html" class="menu__link menu__link_current"
                 >Студия</a
               >
             </li>
             <li class="menu__item">
-              <a href="./portfolio.html" class="menu__link link">Портфолио</a>
+              <a href="./portfolio.html" class="menu__link">Портфолио</a>
             </li>
             <li class="menu__item">
-              <a href="" class="menu__link link">Контакты</a>
+              <a href="" class="menu__link">Контакты</a>
             </li>
           </ul>
         </nav>
-        <ul class="contact-list">
+        <ul class="contact">
           <li class="contact__item">
-            <a href="mailto:info@devstudio.com" class="header__mail link">
+            <a href="mailto:info@devstudio.com" class="header__mail">
               <svg class="mail__icon" width="16" height="12">
                 <use href="./images/icons.svg#mail"></use>
               </svg>
@@ -55,7 +55,7 @@
             </a>
           </li>
           <li class="contact__item">
-            <a href="tel:+380961111111" class="header__phone-number link">
+            <a href="tel:+380961111111" class="header__phone-number">
               <svg class="phone__icon" width="10" height="16">
                 <use href="./images/icons.svg#smartphone"></use>
               </svg>
@@ -69,9 +69,9 @@
     <!-- Шапка -->
 
     <main class="studio-main">
-      <section class="hero hero__overlay">
+      <section class="hero">
         <div class="container">
-          <h1 class="hero__tite">Эффективные решения для вашего бизнеса</h1>
+          <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
 
           <button type="button" class="hero__button" data-modal-open>
             Заказать услугу
@@ -81,9 +81,9 @@
 
       <!-- Особенности -->
       <section class="section">
-        <div class="specialization container">
+        <div class="container">
           <h2 class="visually-hidden">Наши особенности</h2>
-          <ul class="specialization__list">
+          <ul class="specialization">
             <li class="specialization__item">
               <a href="" class="specialization__link">
                 <svg class="specialization__icon" width="70" height="70">
@@ -136,10 +136,10 @@
         </div>
       </section>
       <!-- Чем мы занимаемся -->
-      <section class="our-work section">
+      <section class="section section_no-padding-top">
         <div class="container">
-          <h2 class="our-work__title title">Чем мы занимаемся</h2>
-          <ul class="our-work__list">
+          <h2 class="section__title">Чем мы занимаемся</h2>
+          <ul class="our-work">
             <li class="our-work__item">
               <img
                 src="./images/page-proofs.jpg"
@@ -172,10 +172,10 @@
       </section>
 
       <!-- Наша команда -->
-      <section class="our-team section">
+      <section class="section section__other-background">
         <div class="container">
-          <h2 class="our-team__title title">Наша команда</h2>
-          <ul class="our-team__list">
+          <h2 class="section__title">Наша команда</h2>
+          <ul class="our-team">
             <li class="our-team__item">
               <img
                 src="./images/team/photo1.jpg"
@@ -184,7 +184,7 @@
                 height="260"
               />
               <div class="our-team__card">
-                <h3 class="our-team__name">Игорь Демьяненко</h3>
+                <h3 class="our-team__title">Игорь Демьяненко</h3>
                 <p lang="en" class="our-team__text">Product Designer</p>
                 <ul class="social-list">
                   <li class="social-list__item">
@@ -227,7 +227,7 @@
                 height="260"
               />
               <div class="our-team__card">
-                <h3 class="our-team__name">Ольга Репина</h3>
+                <h3 class="our-team__title">Ольга Репина</h3>
                 <p lang="en" class="our-team__text">Frontend Developer</p>
                 <ul class="social-list">
                   <li class="social-list__item">
@@ -270,7 +270,7 @@
                 height="260"
               />
               <div class="our-team__card">
-                <h3 class="our-team__name">Николай Тарасов</h3>
+                <h3 class="our-team__title">Николай Тарасов</h3>
                 <p lang="en" class="our-team__text">Marketing</p>
                 <ul class="social-list">
                   <li class="social-list__item">
@@ -313,7 +313,7 @@
                 height="260"
               />
               <div class="our-team__card">
-                <h3 class="our-team__name">Михаил Ермаков</h3>
+                <h3 class="our-team__title">Михаил Ермаков</h3>
                 <p lang="en" class="our-team__text">UI Designer</p>
                 <ul class="social-list">
                   <li class="social-list__item">
@@ -351,10 +351,10 @@
         </div>
       </section>
       <!-- Постоянные клиенты -->
-      <section class="our-clients section">
+      <section class="section">
         <div class="container">
-          <h2 class="our-clients__title title">Постоянные клиенты</h2>
-          <ul class="our-clients__list">
+          <h2 class="section__title">Постоянные клиенты</h2>
+          <ul class="our-clients">
             <li class="our-clients__item">
               <a href="" class="our-clients__link">
                 <svg class="our-clients__icon" width="106" height="60">
@@ -405,27 +405,27 @@
     <footer class="footer">
       <div class="container footer__container">
         <div class="navigation footer__navigation">
-          <a href="/" lang="en" class="logo logo__footer link"
-            >Web<span class="logo__color__light">Studio</span></a
+          <a href="/" lang="en" class="logo logo__footer"
+            >Web<span class="logo__light">Studio</span></a
           >
           <address class="address">
-            <ul class="footer__contact-list">
-              <li class="contact-list__item">
+            <ul class="contact-footer">
+              <li class="contact-footer__item">
                 <a
                   href="https://goo.gl/maps/c3DatfC8NeGpE9Bo7"
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="contact-list__link link"
+                  class="contact-footer__link"
                   >г. Киев, пр-т Леси Украинки, 26</a
                 >
               </li>
-              <li class="contact-list__item">
-                <a href="mailto:info@devstudio.com" class="footer__mail link"
+              <li class="contact-footer__item">
+                <a href="mailto:info@devstudio.com" class="footer__mail"
                   >info@devstudio.com</a
                 >
               </li>
-              <li class="contact-list__item">
-                <a href="tel:+380961111111" class="footer__phone-number link"
+              <li class="contact-footer__item">
+                <a href="tel:+380961111111" class="footer__phone-number"
                   >+38 096 111 11 11</a
                 >
               </li>
@@ -433,11 +433,11 @@
           </address>
         </div>
         <!--footer-social-->
-        <div class="footer-social footer-social__container">
+        <div class="footer-social__container">
           <h2 class="footer-social__text">присоединяйтесь</h2>
-          <ul class="footer-social__list list">
+          <ul class="footer-social">
             <li class="footer-social__item">
-              <a href="" class="footer-social__link link"
+              <a href="" class="footer-social__link"
                 ><svg class="footer-social__icon" width="20" height="20">
                   <use href="./images/icons.svg#instagram"></use>
                 </svg>

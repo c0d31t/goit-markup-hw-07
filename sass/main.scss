@@ -4,10 +4,9 @@
 @import './utils/mixin';
 
 @import './base/common';
-@import'./base/container';
-@import './base/section';
 
-@import './components/title';
+@import'./components/container';
+@import './components/section';
 @import './components/logo';
 @import './components/modal';
 

@@ -34,14 +34,6 @@
   }
 }
 
-.logo__header {
-  margin-right: 93px;
-}
-
-.logo__color__dark {
-  color: var(--primery-text-color);
-}
-
 .navigation {
   display: flex;
   align-items: center;
@@ -86,15 +78,16 @@
   }
 }
 
-.contact-list {
+.contact {
   display: flex;
   padding: 0;
   margin-left: auto;
+  &__item:not(:last-child) {
+      margin-right: 50px;
+    }
 }
 
-.contact__item:not(:last-child) {
-  margin-right: 50px;
-}
+
 
 .mail__icon {
   margin-right: 10px;
